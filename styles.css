@@ -1,0 +1,370 @@
+*{
+    box-sizing: border-box;
+    }
+    p{
+        font-size: 20px;
+    }
+    body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    /* background-color: #7743DB; */
+    font-family: 'Poppins', sans-serif;
+    }
+    
+    .main_header {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 80px;
+    
+    }
+    
+    .main_header a, .nav_mobile a{
+    color: inherit;
+    text-decoration: none;
+    }
+    
+    
+    .main_header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 2.8rem;
+    }
+    
+    .main_header ul a , .nav_mobile ul a{
+    font-weight: 500;
+    }
+    
+    
+    .main_header ul a:hover {
+    opacity: 0.8;
+    border-bottom: 3px solid #9c9c9c;
+    }
+    .main_brand {
+        font-weight: bold;
+        font-size: 1.25rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        }
+        
+        .hamburger_menu{
+        display: none;
+        }
+        .hamburger_menu:hover{
+        cursor: pointer;
+        }
+        
+        .hamburger_menu div{
+        width: 30px;
+        height: 3px;
+        background-color: white;
+        margin: .5rem 0;
+        color: black;
+        }
+       
+    
+    
+        
+    .nav_mobile ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .nav_mobile li{
+        width: 100%;
+        
+        text-align:center;
+        padding: 1rem 0;
+    } 
+    .nav_mobile{
+        background-color: rgba(17, 17, 17, 0.829);
+        
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s  ease-in-out;
+        color: white;
+        
+    }
+    .nav_mobile a:hover{
+        opacity: 0.8;
+        border-bottom: 3px solid white;
+    }
+    .display{
+        max-height: 500px;
+    }
+
+.quote{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.white{
+    background-color: white;
+    color: white;
+}
+.who{
+    margin-left: 2rem;
+}
+.imghov:hover{
+    opacity: 0.8;
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.imghov{
+    height: 100px;
+    width: 150px;
+    border-radius: 8rem;
+}
+.prodtext{
+    margin-left: 2rem;
+    margin-bottom: 0;
+    
+}
+.aligning{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 5rem;
+}
+.picture{
+    
+    margin-right: 2rem;
+    height: 20rem;
+    width: 30rem;
+}
+.learn {
+    text-decoration: none;
+    color: inherit;
+    margin-left: 2rem;
+    background-color: black;
+    padding:1rem 1rem 1rem 1rem;
+    border-radius: 1rem;
+    width: 10rem;
+    color: white;
+    position: relative;
+    bottom:6rem;
+}
+.learn a{
+    color: white;
+    
+}
+.aboutus{
+    margin-left: 2rem;
+}
+.bout{
+    margin-left: 2rem;
+    position: relative;
+    
+}
+.company1{
+    height: 30rem;
+    width: 40rem;
+    position: relative;
+    bottom: 17rem;
+    
+}
+
+.comp1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.company2{
+    height: 30rem;
+    width: 40rem;
+    position: absolute;
+    left: 44.3rem;
+    top: 56rem;
+}
+#us{
+    margin-left: 2rem;
+}
+
+.margint{
+    margin-left: 2rem;
+}
+.marginp{
+    margin-right: 2rem;
+}
+.p1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.p2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.p3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.p4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.p5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.p6{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cameras1{
+    height:12rem;
+    width:22rem;
+    position: absolute;
+    top: 14rem;
+    left: 60rem;
+}
+.cameras2{
+    height:12rem;
+    width:22rem;
+    position: absolute;
+    top: 26.5rem;
+    left: 60rem;
+    
+}
+.Contact{
+    background-color: rgb(71, 71, 71);
+    color: white;;
+}
+.small{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 3rem;
+}
+.small:hover{
+    opacity: 0.8;
+}
+.first{
+    position: relative;
+    right: 3.2rem;
+}
+.second{
+    position: relative;
+    bottom: 3.2rem;
+}
+.third{
+    position: relative;
+    bottom: 6.45rem;
+    left: 3.2rem;
+}
+@media(min-width:1029px){
+    .nav_mobile{
+        display: none;
+    }
+     
+}
+@media(max-width: 1028px){
+
+    
+
+.p6{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+.p5{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+.p4{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+.p3{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+.gate{
+    height: 15rem;
+    width: 24rem;
+}
+.p2{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+.hr{
+    margin-bottom: 17rem;
+    position: relative;
+    top: 15rem;
+}
+
+    .cameras1
+{
+    height:7rem;
+    width:11rem;
+    left: 11rem;
+    top: 50rem;
+}
+.cameras2
+{
+    height:7rem;
+    width:11rem;;   
+    left: 0;
+    top: 50rem;    
+    }
+.aligning{
+    display: block;
+    align-items: center;
+    justify-content:center;
+    position: relative;
+    bottom: 2rem;
+}
+.learn{
+    text-decoration: none;
+    color: inherit;
+    margin-left: 8rem;
+    background-color: black;
+    padding:1rem 1rem 1rem 1rem;
+    border-radius: 1rem;
+    width: 10rem;
+    color: white;
+    position: relative;
+    bottom:1rem;
+}
+.picture{
+    width: 25rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.company1{
+    display: none;
+}    
+.company2{
+    display: none;
+}
+.main_header nav {
+    display: none;
+}
+.hamburger_menu {
+    display: block;
+}
+
+
+}
